@@ -1,0 +1,99 @@
+@import _variables
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+a 
+    text-decoration: none
+    color: white
+
+body 
+    min-height: 100vh
+    font-size: 10px
+    width: 100vh
+
+.container
+    width: 90%
+    margin: auto
+    font-family: $letra
+
+
+.header
+    font-family: $letra
+    font-size: 1.2em
+    height: 100vh
+    width: 100vh
+    background: #556270
+    background-image: linear-gradient(to right, rgba(255, 107, 107, 0.596), rgba(85, 98, 112, 0.562)), url(../banner.jpg)
+    background-attachment: fixed
+    background-position: center
+    background-size: cover
+
+
+.banner
+    margin-top: 19em
+    font-family: $letra 
+
+#logo
+    width: 35px
+    margin-left: 1.6em
+    margin-right: 1.3em
+
+h3 
+    color: $h3
+    font-family: $letra
+    
+.productos-list
+    list-style: none
+
+footer 
+    background: #8E0E00
+    background: linear-gradient(to right, rgba(31, 28, 24, 0.877), rgb(142, 14, 0))
+    color: white
+    a 
+        color: #fff
+
+.footer
+    margin-top: 1em
+    font-size: 2.3em
+    
+#fb:hover
+    cursor: pointer
+    color: rgba(71, 142, 248, 0.932)
+    color: linear-gradient( #0071fcd3, #3a00d8d7)
+    
+#ig:hover
+    color: #f03f33
+    color:  linear-gradient(45deg, #f09433 0%,#ee0000c2 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
+    cursor: pointer
+
+#tw:hover
+    color: rgba(115, 170, 253, 0.932)
+    color: linear-gradient( #0071fcd3, #3a00d8d7)
+    cursor: pointer 
+
+
+@media screen and ( max-width: 992px)
+    .banner
+        margin-top: 10em
+
+@media screen and ( max-width: 576px)
+    .footer
+        font-size: 2em
+        margin-top: 0
+
+    #boton
+        display: block
+        width: 100%
+        margin-top: 4px
+
+
+
+       
+
+
+
+
+
